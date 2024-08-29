@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-controls {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-right: 15px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

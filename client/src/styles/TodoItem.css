@@ -1,0 +1,99 @@
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button-group button {
+  padding: 8px 12px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-item {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.todo-item h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.todo-item .todo-content {
+  flex-grow: 1;
+}
+
+.status-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.status-buttons button {
+  padding: 6px 12px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.status-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.todo-item:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.todo-item {
+  width: 300px;
+  max-width: 350px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: left;
+}
+
+.todo-content {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+p {
+  margin: 8px 0;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #6b46c1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: #553c9a;
+}

@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.button-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.board-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.board-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.board-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.board-owner {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.board-link {
+  text-decoration: none;
+  color: #6200ea;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid #6200ea;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.board-link:hover {
+  background-color: #6200ea;
+  color: white;
+}
+
+button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
